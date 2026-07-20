@@ -5,7 +5,7 @@
   "main": "main.js",
   "author": "Mohamad",
   "scripts": {
-    "build": "electron-builder --win"
+    "build": "electron-builder --win --publish=never"
   },
   "devDependencies": {
     "electron": "^30.0.0",
